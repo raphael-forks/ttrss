@@ -191,7 +191,7 @@
 	// if you experience weird errors and tt-rss failing to start, blank pages
 	// after login, or content encoding errors, disable it.
 
-	define('PLUGINS', 'auth_internal, note, updater');
+	define('PLUGINS', 'auth_internal, auth_remote,  note, updater');
 	// System plugins have to be specified here. Please enable at least one
 	// authentication plugin here (auth_*).
 	// Users may enable other user plugins from Preferences/Plugins but may not
